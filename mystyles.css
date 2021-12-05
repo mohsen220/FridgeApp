@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+* {
+  margin: 0;
+}
+
+#fridgefriend_logo_no_bg_1 {
+  width: 300px;
+}
+
+#email_ {
+  background: rgba(225, 225, 225, 0);
+}
+
+#__p__email_ {
+  font-size: 18px;
+  font-style: italic;
+  text-align: left;
+  color: #393939;
+}
+
+#email_box {
+  top: 0px;
+  left: 0px;
+  width: 331px;
+  height: 44px;
+  background: rgba(229, 229, 229, 1);
+}
+
+#password_ {
+  top: 384px;
+  left: 22px;
+  width: 331px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0);
+}
+
+.login-text {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: italic;
+  color: #000000;
+}
+
+.login-box {
+  width: 302px;
+  background: rgba(229, 229, 229, 1);
+  height: 100%;
+}
+
+.text-container {
+  grid-row: 8/9;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.no-account-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  grid-row: 6/7;
+}
+
+#__p__go_ {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  padding-top: 7px;
+  color: #ffffff;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+  grid-template-rows: 100px 600px;
+}
+
+#go_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.phone-container {
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 600px;
+  width: 300px;
+  display: grid;
+  grid-template-rows: 1.5fr 0.35fr 0.35fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  padding: 20px;
+  padding-top: 70px;
+  grid-row-gap: 15px;
+}
+
+.div-wrapper {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#go__button {
+  top: 443px;
+  left: 308px;
+  width: 45px;
+  height: 41px;
+  background: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#go__button2 {
+  top: 443px;
+  left: 308px;
+  width: 45px;
+  height: 41px;
+  background-color: #5ba7fc;
+}
+
+#__p__don_t_have_an_account_ {
+  overflow: hidden;
+  font-family: Montserrat;
+  font-size: 18px;
+  text-align: left;
+  color: #393939;
+}
+
+#__p__sign_up_ {
+  text-align: center;
+  padding-top: 7px;
+  font-family: Montserrat;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sign-up-container {
+  grid-row: 7/8;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0);
+}
+
+#sign_up__button {
+  top: 666px;
+  left: 144px;
+  width: 91px;
+  height: 41px;
+  background-color: #5ba7fc;
+}
+
+#__p__by_proceeding_you_also_agree_to_the_terms_of_service_and_privacy_policy {
+  top: 762px;
+  left: 36px;
+  width: 311px;
+  height: 44px;
+  overflow: hidden;
+  font-family: Montserrat;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+}

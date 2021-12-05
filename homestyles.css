@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+.phone-container {
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 600px;
+  width: 200px;
+  display: grid;
+  grid-template-rows: 0.2fr 0.1fr 1fr;
+  grid-row-gap: 0px;
+  padding: 20px;
+  padding-top: 25px;
+  padding-right: 120px;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+  grid-template-rows: 100px 600px;
+}
+
+.div-wrapper {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#NotificationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #5ba7fc;
+}
+
+#NotificationTextElement {
+  font-family: Montserrat;
+  color: aliceblue;
+}
+
+#InformationContainer {
+  background: #e5e5e5;
+  font-family: Montserrat;
+}
+
+#fridgefriend_logo_no_bg_1 {
+  width: 300px;
+}
+
+.information-main-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 10px;
+}
+
+.options-container {
+  background-color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  font-family: Montserrat;
+}
+
+.options-container-item {
+  background-color: #5ba7fc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 45px;
+  font-family: Montserrat;
+  color: white;
+}
